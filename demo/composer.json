@@ -1,0 +1,15 @@
+{
+  "name": "test/sorted-linked-list-host",
+  "description": "Test project for sorted-linked-list library",
+  "type": "project",
+  "require": {
+    "php": ">=7.4",
+    "ilyasakbergen/sorted-linked-list": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/IlyasAkbergen/sorted-linked-list"
+    }
+  ]
+}

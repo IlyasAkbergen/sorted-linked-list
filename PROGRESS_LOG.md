@@ -3,3 +3,4 @@ This file is intended to document the progress made on the Sorted Linked List Li
 1. Init git repository, composer setup, basic project structure.
 2. Define specifications in a unit test applying TDD.
 3. Implement basic linked list structure and add more unit tests cases.
+4. Test on a [fake host project(demo)](./demo/demo.php)

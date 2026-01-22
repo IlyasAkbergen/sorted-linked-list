@@ -10,6 +10,31 @@ This project is a PHP library that implements a sorted linked list data structur
 - Methods for adding, removing, and searching elements
 - Unit tests to ensure functionality and reliability
 
+### Installation
+Add in your `composer.json`:
+
+```json
+{
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/IlyasAkbergen/sorted-linked-list"
+      }
+    ]
+}
+```
+
+Then run:
+
+```shell
+composer install
+```
+
+### Unit Tests
+```shell
+vendor/bin/phpunit tests
+```
+
 ### Usage
 
 ```php
@@ -33,3 +58,12 @@ This project is a PHP library that implements a sorted linked list data structur
 
    // The list is now sorted: Akbergen -> Doe -> Iliyas
    ```
+
+### Demo
+A demo script is available at `demo/demo.php`. You can run it using the command:
+
+```shell
+cd demo &&
+  composer install &&
+  php demo.php
+```

@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cd92fc3249dba7fcaa60a4919a9d10dd",
+    "packages": [
+        {
+            "name": "ilyasakbergen/sorted-linked-list",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IlyasAkbergen/sorted-linked-list.git",
+                "reference": "0afbf4313a33b39ef0ec660c2c165fb8cc523c74"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IlyasAkbergen/sorted-linked-list/zipball/0afbf4313a33b39ef0ec660c2c165fb8cc523c74",
+                "reference": "0afbf4313a33b39ef0ec660c2c165fb8cc523c74",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^2.1",
+                "phpunit/phpunit": "^12.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ilyasakbergen\\SortedLinkedList\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Ilyasakbergen\\SortedLinkedList\\Tests\\": "tests/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Ilyas Akbergen",
+                    "email": "iliyasakbergen@gmail.com"
+                }
+            ],
+            "description": "a library providing SortedLinkedList",
+            "support": {
+                "source": "https://github.com/IlyasAkbergen/sorted-linked-list/tree/master",
+                "issues": "https://github.com/IlyasAkbergen/sorted-linked-list/issues"
+            },
+            "time": "2026-01-22T18:46:36+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "ilyasakbergen/sorted-linked-list": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
